@@ -1,0 +1,15 @@
+.add{
+    margin: 5px;
+    padding: 5px;
+}
+.delete{
+    margin: 7px;
+    padding: 5px;
+}
+ul{
+    display: flex;
+    justify-content: center;
+}
+input{
+    padding: 5px;
+}

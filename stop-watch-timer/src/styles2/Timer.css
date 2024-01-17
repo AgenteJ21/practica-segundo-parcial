@@ -1,0 +1,33 @@
+:root{
+    --green: #167703;
+    --red: #850202;
+    --yellow: #ffee00;
+    --md: 16px;
+    --lg: 20px;
+    --pdd: 10px;
+}
+span{
+    font-size: var(--lg);
+}
+.btn-timer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+    margin: 10px;
+}
+.btn-start{
+    background-color: var(--green);
+    font-size: var(--md);
+    padding: var(--pdd);
+}
+.btn-stop{
+    background-color: var(--red);
+    font-size: var(--md);
+    padding: var(--pdd);
+}
+.btn-reset{
+    background-color: var(--yellow);
+    font-size: var(--md);
+    padding: var(--pdd);
+}

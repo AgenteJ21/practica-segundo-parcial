@@ -1,0 +1,14 @@
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 10px;
+    gap: 10px;
+}
+
+button{
+    background-color: purple;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+}
